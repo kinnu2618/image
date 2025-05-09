@@ -42,7 +42,7 @@ def predict():
             prediction = "Sad 😢" if confidence > 0.5 else "Happy 😊"
         else:  # softmax
             class_names = ["Happy 😊", "Sad 😢"]
-            pred_class = np.argmax(yhat[0])
+            pred_class = np.argmax(yhat[0])                                                     
             prediction = class_names[pred_class]
             confidence = float(yhat[0][pred_class])
 

@@ -2,4 +2,8 @@ streamlit
 tensorflow
 opencv-python
 Pillow
+<<<<<<< HEAD
 numpy
+=======
+numpy
+>>>>>>> 0a8ed6b9de81cae25d3675e2fe447497a6e628ab
